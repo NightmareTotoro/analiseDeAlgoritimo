@@ -1,5 +1,5 @@
 
-# Funcao de recursao de verificacao de palindromo  
+# Funcao de recursao de verificacao de palindromo
 def palindromo_recursivo(arr, esquerda=0, direita=None):
     if direita is None:
         direita = len(arr) - 1
